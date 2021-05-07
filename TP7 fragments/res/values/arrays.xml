@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Age">
+        <item>Entre 10-15 ans</item>
+        <item>Entre 16-20 ans</item>
+        <item>Entre 21-25 ans</item>
+        <item>Entre 26-35 ans</item>
+    </string-array>
+
+    <string-array name="region">
+        <item>Monastir</item>
+        <item>Sousse</item>
+        <item>mehdia</item>
+        <item>Bizert</item>
+    </string-array>
+
+    <string-array name="music">
+        <item>classique</item>
+        <item>calme</item>
+        <item>rap</item>
+    </string-array>
+
+    <string-array name="activity">
+        <item>sport</item>
+        <item>dance</item>
+        <item>dessin</item>
+        <item>loisir</item>
+    </string-array>
+
+</resources>

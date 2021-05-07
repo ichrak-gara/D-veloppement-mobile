@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="user_category"
+        android:title="Information Nécessaire"
+        >
+           <EditTextPreference
+               android:dialogTitle="Votre Nom"
+               android:dialogMessage="User User"
+               android:inputType="textCapWords"
+               android:title="Nom et Prénom"
+               android:key="key_name"
+               android:summary="Entrer votre nom et prénom" />
+            <EditTextPreference
+                android:dialogTitle="Votre Email"
+                android:dialogMessage="user@gmail.com"
+                android:inputType="textEmailAddress"
+                android:title="Email"
+                android:key="key_mail"
+                android:summary="Entrer votre Email " />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Plus d'information">
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="box"
+                android:title="vous êtes étudiant ?"
+                android:summary="si oui, cocher le box"
+                />
+
+            <ListPreference
+                    android:entries="@array/Age"
+                    android:entryValues="@array/Age"
+                    android:summary="Sélectionner votre age"
+                    android:key="key_age"
+                    android:title="Votre Age" />
+            <ListPreference
+                android:defaultValue="sousse"
+                android:entries="@array/region"
+                android:entryValues="@array/region"
+                android:summary="Sélectionner votre région"
+                android:key="key_region"
+                android:title="Votre région" />
+        <ListPreference
+            android:entries="@array/music"
+            android:entryValues="@array/music"
+            android:summary="Sélectionner votre choix de musique"
+            android:key="key_music"
+            android:title="Musique" />
+        <ListPreference
+            android:entries="@array/activity"
+            android:entryValues="@array/activity"
+            android:summary="Sélectionner votre choix d'activités"
+            android:key="key_activity"
+            android:title="Activité" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
